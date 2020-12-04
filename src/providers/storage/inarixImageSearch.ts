@@ -3,7 +3,6 @@ import { IAsset, AssetType } from "../../models/applicationState";
 import { IAssetProvider } from "./assetProviderFactory";
 import { AssetService } from "../../services/assetService";
 import Guard from "../../common/guard";
-import { createQueryString } from "../../common/utils";
 
 /**
  * Options for Inarix Image Search
@@ -16,7 +15,7 @@ export interface IInarixImageSearchOptions {
 }
 
 /**
- * Asset Provider for Bing Image Search
+ * Asset Provider for Inarix Image Search
  */
 export class InarixImageSearch implements IAssetProvider {
     public static DefaultApiUrl = "https://analytics.api.inarix.com/";
@@ -26,7 +25,7 @@ export class InarixImageSearch implements IAssetProvider {
     }
 
     /**
-     * Retrieves assets from Bing Image Search based on options provided
+     * Retrieves assets from Inarix Image Search based on options provided
      */
     public async getAssets(): Promise<IAsset[]> {
         const query = {}; // TODO: add query
