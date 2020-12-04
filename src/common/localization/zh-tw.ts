@@ -258,6 +258,20 @@ export const chinesetw: IAppStrings = {
                     },
                 },
             },
+            inarix: {
+                title: "Inarix Image Search",
+                options: {
+                    title: "Inarix Image Search Options",
+                },
+                endpoint: {
+                    title: "Endpoint",
+                    description: "The endpoint listed within the Inarix API resource",
+                },
+                apiKey: {
+                    title: "API Key",
+                    description: "An API key listed within the Inarix API resource",
+                },
+            },
             local: {
                 title: "本機檔案系統", // Local File System
                 folderPath: "資料夾路徑", // Folder Path

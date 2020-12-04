@@ -256,6 +256,20 @@ export const korean: IAppStrings = {
                     },
                 },
             },
+            inarix: {
+                title: "Inarix Image Search",
+                options: {
+                    title: "Inarix Image Search Options",
+                },
+                endpoint: {
+                    title: "Endpoint",
+                    description: "The endpoint listed within the Inarix API resource",
+                },
+                apiKey: {
+                    title: "API Key",
+                    description: "An API key listed within the Inarix API resource",
+                },
+            },
             local: {
                 title: "로컬 파일 시스템",  // Local File System,
                 folderPath: "경로",  // Folder Path,

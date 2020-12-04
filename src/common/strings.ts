@@ -251,6 +251,20 @@ export interface IAppStrings {
                     },
                 },
             },
+            inarix: {
+                title: string,
+                options: {
+                    title: string,
+                },
+                endpoint: {
+                    title: string,
+                    description?: string,
+                },
+                apiKey: {
+                    title: string,
+                    description?: string,
+                },
+            },
             local: {
                 title: string;
                 folderPath: string;

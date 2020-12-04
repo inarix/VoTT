@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "title": "${strings.connections.providers.inarix.options.title}",
+    "required": ["apiKey"],
+    "properties": {
+        "endpoint": {
+            "type": "string",
+            "title": "Endpoint",
+            "description": "The endpoint from your Inarix API resource",
+            "default": "https://analytics.api.inarix.com/",
+            "pattern": "^https?\\\\://[a-zA-Z0-9\\\\-\\\\.]+\\\\.[a-zA-Z]{2,3}(/\\\\S*)?$"
+        },
+        "apiKey": {
+            "type": "string",
+            "title": "${strings.connections.providers.inarix.apiKey.title}",
+            "description": "${strings.connections.providers.inarix.apiKey.description}"
+        }
+    }
+}

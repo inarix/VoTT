@@ -255,6 +255,20 @@ export const chinese: IAppStrings = {
                     },
                 },
             },
+            inarix: {
+                title: "Inarix Image Search",
+                options: {
+                    title: "Inarix Image Search Options",
+                },
+                endpoint: {
+                    title: "Endpoint",
+                    description: "The endpoint listed within the Inarix API resource",
+                },
+                apiKey: {
+                    title: "API Key",
+                    description: "An API key listed within the Inarix API resource",
+                },
+            },
             local: {
                 title: "本地文件系统", // Local File System
                 folderPath: "文件夹路径", // Folder Path

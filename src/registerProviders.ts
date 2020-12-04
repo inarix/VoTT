@@ -13,6 +13,7 @@ import { strings } from "./common/strings";
 import { HostProcessType } from "./common/hostProcess";
 import { AzureCustomVisionProvider } from "./providers/export/azureCustomVision";
 import { CntkExportProvider } from "./providers/export/cntk";
+import { InarixImageSearch } from "./providers/storage/inarixImageSearch";
 
 /**
  * Registers storage, asset and export providers, as well as all toolbar items
@@ -47,6 +48,11 @@ export default function registerProviders() {
         name: "bingImageSearch",
         displayName: strings.connections.providers.bing.title,
         factory: (options) => new BingImageSearch(options),
+    });
+    AssetProviderFactory.register({
+        name: "inarixImageSearch",
+        displayName: strings.connections.providers.inarix.title,
+        factory: (options) => new InarixImageSearch(options),
     });
 
     // Export Providers

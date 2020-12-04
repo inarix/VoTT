@@ -250,6 +250,20 @@ export const spanish: IAppStrings = {
                     },
                 },
             },
+            inarix: {
+                title: "Inarix Image Search",
+                options: {
+                    title: "Inarix Image Search Options",
+                },
+                endpoint: {
+                    title: "Endpoint",
+                    description: "The endpoint listed within the Inarix API resource",
+                },
+                apiKey: {
+                    title: "API Key",
+                    description: "An API key listed within the Inarix API resource",
+                },
+            },
             local: {
                 title: "Sistema de Archivos Local",
                 folderPath: "Ruta de la carpeta",
